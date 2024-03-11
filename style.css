@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #3498db;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px; /* Increased max-width for a larger container */
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px; /* Increased padding for more spacing */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    border-radius: 8px; /* Added border-radius for rounded corners */
+}
+
+#taskTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#taskTable th, #taskTable td {
+    border: 1px solid #ddd;
+    padding: 12px; /* Increased padding for more spacing */
+    text-align: left;
+    color: #3498db; /* Lighter blue font color */
+}
+
+#taskTable th {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.edit-mode {
+    background-color: #e0e0e0;
+}
+
+/* Style for buttons */
+button {
+    background-color: transparent;
+    border: 2px solid #3498db;
+    color: #3498db;
+    padding: 12px 20px; /* Increased padding for larger buttons */
+    margin: 8px; /* Increased margin for more spacing */
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 16px; /* Increased font size for better visibility */
+}
+
+button:hover {
+    background-color: #a4e0f7;
+    color: #fff;
+}
+
+
+
+
+
+

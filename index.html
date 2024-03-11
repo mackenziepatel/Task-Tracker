@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Task Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Task Tracker</h1>
+        <form id="taskForm">
+            <label for="taskInput">Task:</label>
+            <input type="text" id="taskInput" placeholder="Enter your task" required>
+            <label for="priorityInput">Priority:</label>
+            <select id="priorityInput">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+            <label for="startDateInput">Start Date:</label>
+            <input type="date" id="startDateInput">
+            <label for="dueDateInput">Due Date:</label>
+            <input type="date" id="dueDateInput">
+            <button type="submit">Add Task</button>
+        </form>
+        <table id="taskTable">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Task</th>
+                    <th>Priority</th>
+                    <th>Start Date</th>
+                    <th>Due Date</th>
+                    <th>Completed</th>
+                    <th>Notes</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody id="taskList">
+                <!-- Task items will be dynamically added here -->
+            </tbody>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
